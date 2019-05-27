@@ -1,0 +1,686 @@
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url('font/glyphicons-halflings-regular.eot');
+  src: url('font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('font/glyphicons-halflings-regular.woff') format('woff'), url('font/glyphicons-halflings-regular.ttf') format('truetype'), url('font/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
+}
+
+@font-face {
+   font-family: "Font Hughs";
+   src: url(font/hughs/Hughs.otf);
+}
+
+@font-face {
+   font-family: "Font DeJavu";
+   src: url(font/dejavu/DeJavu.ttf);
+}
+
+@font-face {
+   font-family: "Font Antipasto";
+   src: url(font/antipasto/AntipastoProLight.ttf);
+}
+
+@font-face {
+   font-family: "Font Droid";
+   src: url(font/droid/DroidSans.ttf);
+}
+
+@font-face {
+   font-family: "Font Lapius";
+   src: url(font/lapius/lapius.TTF);
+}
+
+@font-face {
+   font-family: "Font AbeatLight";
+   src: url(font/light/abeak.ttf);
+}
+
+@font-face {
+   font-family: "Font YanoneLight";
+   src: url(font/yanone/YanoneKaffeesatz-Light.ttf);
+}
+
+@font-face {
+   font-family: "Font OpenSansLight";
+   src: url(font/open-sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+   font-family: "Font OpenSansReg";
+   src: url(font/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Font Prestij"
+   src: url(font/prestij-demo/Prestij_Regular_Demo.otf);
+}
+
+@font-face {
+   font-family: "Font Economica";
+   src: url(font/economica/Economica-Regular.ttf);
+}
+
+body {
+  background-color: #302826;
+}
+
+
+.bgimg{
+  background-image: url("pattern/sativa.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -999;
+}
+
+.changeColor{
+  background-image: url("pattern/memphis-colorful.png");
+}
+
+.changeColor2{
+  background-image: url("pattern/asanoha-400px.png");
+}
+
+.bgimg2{
+  background-image: url("pattern/memphis-colorful.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -999;
+}
+
+.linkund:hover {
+  text-decoration: none;
+}
+
+.ne {
+  text-align:center; 
+  margin-top: 20px; 
+  width: 40%; 
+  position:relative; 
+  z-index: 1;
+  background-color: #ffffff88;
+  padding: 0;
+  border-radius: 3px 3px 0px 0px;
+  border: 1px solid black;
+}
+
+* {
+  margin: 0;
+}
+
+.signInUpHeader {
+  background-color: #302826; 
+  border-radius: 3px 3px 0px 0px;
+  padding: 25px;
+  color: white; 
+  font-family: "Font Antipasto";
+  font-size: 35px;
+}
+
+.firstlastname{
+  margin-top: 20px;
+}
+
+.inputheight {
+  height: 40px;
+  border: none;
+  padding: 20px;
+  background-color: #9999994d;
+  color: #2f2f2f;
+  border-radius: 0px;
+  margin: 0;
+}
+
+.topma {
+  margin-top: 20px;
+}
+
+.icstyle {
+  font-size: 20px;
+  line-height: 40px;
+  color: #413535;
+}
+
+.shd:focus {
+  box-shadow: 0px 3px 3px #2a2a2ab3;
+}
+
+.shd:hover {
+  box-shadow: 0px 3px 3px #2a2a2ab3;
+}
+
+
+/*Tombol Register*/
+
+.regbtn {
+  border-radius: 0px;
+  border: none;
+  background-color: #27317d;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: .7s;
+}
+
+.regbtn:hover{
+  background-color: #302826;
+}
+
+.padtop{
+  padding-top: 20px;
+}
+
+.fixpos {
+  position: fixed;
+  padding-top: 20px;
+  background-color: #27317d;
+  height: 100%;
+  z-index: 9999;
+  box-shadow: 0px 10px 10px #111;
+}
+
+.makeitblock {
+  display: block;
+}
+
+.navbar-brand {
+   font-family: Font Hughs;
+   font-size: 25px;
+   color: white;
+   transition: .5s;
+}
+
+.navbar-brand:hover{
+  color: white;
+  transform: scale(1.2);
+}
+
+ul.navbar-left {
+  width: 100%;
+  height: 100%;
+}
+
+.nav > li > a {
+  color: white;
+  transition: .6s;
+}
+
+   .nav > li > a:hover {
+      color: #302826;
+   }
+   .nav > li > a:focus {
+      color: #302826;
+      background-color: none;
+   }
+
+.active {
+  background-color: #fff3;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.marginten {
+  margin-right: 20px;
+}
+
+div.tpage {          /*Title Page tpage*/
+   font-family: "Font OpenSansLight";
+   font-size: 30px;
+   padding: 20px;
+   background: linear-gradient(90deg, #27317d, #00fff6dd);
+   color: white;
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+   margin-left: -25px;
+   box-shadow: 10px 0px 10px #111;
+}
+
+.gridphoto {
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 98%;
+   object-fit: cover;
+}
+
+.textcentered {
+   color: black;
+   font-family: "Font Droid";
+   width: 100%;
+   text-align: center;
+   padding: 5px;
+   margin: 0;
+}
+
+.textcentered a:hover {
+   color: white;
+}
+
+.kolomdata {
+   box-sizing: border-box;
+   padding: 10px;
+   color: black;
+   transition: 1s;
+}
+
+.topmarg {
+   margin-top: 105px;
+}
+
+.col-md-2.col-xs-6.kolomdata:hover {
+   z-index: 1;
+   transform: scale(1.1);
+   color: white;
+}
+
+.fotoDetailJumbo {
+   width: 90%;
+   object-fit: cover;
+   box-shadow: 0px 0px 20px 5px #fff;
+   border-radius: 2px;
+}
+
+.iconicLogo {
+  font-size: 200px; 
+  position: absolute; 
+  top: 50%; 
+  bottom: 50%; 
+  color: #302826; 
+}
+
+
+
+
+/* DETAILED SISWA / SISWI */
+
+.detailedsiswa {
+   padding: 10px 0px 10px 10px;
+   font-family: "Font OpenSansReg";
+   font-size: 20px;
+}
+
+.tombol {
+   text-align : center;
+   margin: 40px ;
+}
+
+.greyColor{
+  background-color: #dedede;
+}
+
+.relatif {
+  position: relative;
+  z-index: -2;
+}
+
+.extratinggi {
+  padding-bottom: 150px;
+}
+
+.tombols:hover {
+   text-shadow: 0px 0px 5px #fff;
+}
+
+.bgwhite{
+  background-color: white;
+  width: 100%;
+  height:100%;
+}
+
+.kotakStatistik {
+  background-color: black;
+  position: relative;
+  top: -15px;
+  left: 15px;
+  z-index: 1;
+  box-shadow: 0px 8px 10px #6c6c6c;
+  border-radius: 5px;
+}
+
+.tombolubah, .tombolhapus {
+  padding: 15px 20px;
+  width: 150px;
+  border: none;
+  border-radius: 0px;
+  background-color: #302826;
+  color: white;
+  border-left: 10px solid #92675c;
+  transition: 1s;
+}
+
+.tombolubah:hover, .tombolhapus:hover {
+  box-shadow: 0px 0px 10px #000;
+}
+
+.hapussiswa {
+  border: none;
+  border-radius: none;
+  padding: 5px 10px;
+  color: white;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* FORM LABEL */
+
+.labelform {
+  display: inline-block; 
+  width: 100px;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+.halaman {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.indHalaman {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background: #7d7a7a;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.indHalaman:hover {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 2px 1px #000;
+}
+
+.try {
+  margin-top: 30px;
+  height: 100px;
+}
+
+
+.homeic {
+  color: white;
+  font-size: 40px;
+  line-height: 100px;
+  height: 100px;
+}
+
+.jmlData {
+  display: block; 
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.k1, .k2, .k3, .k4, .k5, .k6 {
+  height: 400px;
+}
+
+.extrasp {
+  height: 365px;
+  transition: 1s;
+}
+
+.extrasp:hover {
+  transform: scale(1.1);
+}
+
+.warna {
+  background-color: #302826;
+  padding: 10px 0px;
+}
+
+
+.headertitle {
+  background: #302826;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: "Font Antipasto";
+  border-radius: 0px 5px 0px 5px;
+}
+
+.navbar-toggle.collapsed {
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+}
+.navbar-toggle {
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.navbar-form{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.tpad30 {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.input-group {
+  width: 100%;
+}
+
+/* MEDIA QUERY  */
+
+@media only screen and (max-width: 480px) {
+
+    /* ganti semua font yang tidak mempunyai style tersendiri (font-size)
+       agar lebih kecil pada tampilan mobile */
+    
+    body{
+      font-size: 12px;
+    }
+
+    /* Title Admin Rief Web Page*/
+    .navbar-brand{
+      font-size: 20px;
+    }
+
+    /* mengganti garis / navbar collapse */
+
+    .navbar-toggle {
+      font-size: 20px;
+    }
+
+    .headertitle{
+      font-size: 20px;
+      border-radius: 0px;
+      border-top: 6px solid white;
+      margin-bottom: 30px;
+    }
+
+    .ne {
+      text-align:center; 
+      margin-top: 20px; 
+      width: 90%; 
+      position:relative; 
+      z-index: 1;
+      background-color: #ffffff;
+      padding: 0;
+      border-radius: 3px 3px 0px 0px;
+    }
+
+    .input-group {
+      border: none;
+    }
+
+    /* mengatur col-md-3 pada 600px dengan alternative class warna u ganti height elemen*/
+    .warna {
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tpad30 {
+      padding: 0px;
+      border: none;
+    }
+
+    .textcentered {
+      background-color: white;
+      color: black;
+      height: : 30px;
+      line-height: 30px;
+    }
+
+    .iconicLogo{
+      display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* ganti semua font yang tidak mempunyai style tersendiri (font-size)
+       agar lebih kecil pada tampilan mobile  / 768px*/
+    
+    body{
+      font-size: 12px;
+    }
+
+    /* Title Admin Rief Web Page*/
+    .navbar-brand{
+      font-size: 20px;
+    }
+
+    /* mengganti garis / navbar collapse */
+
+    .navbar-toggle {
+      font-size: 20px;
+    }
+
+    .headertitle{
+      font-size: 20px;
+      border-radius: 0px;
+      border-top: 6px solid white;
+      margin-bottom: 30px;
+    }
+
+    .ne {
+      text-align:center; 
+      margin-top: 20px; 
+      width: 90%; 
+      position:relative; 
+      z-index: 1;
+      background-color: #ffffff;
+      padding: 0;
+      border-radius: 3px 3px 0px 0px;
+    }
+
+    .input-group {
+      border: none;
+    }
+
+
+    /* mengatur col-md-3 pada 600px dengan alternative class warna u ganti height elemen*/
+    .warna {
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tpad30 {
+      padding: 0px;
+      border: none;
+    }
+    .textcentered {
+      background-color: white;
+      color: black;
+      height: : 30px;
+      line-height: 30px;
+      
+    }
+
+    .iconicLogo{
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* ganti semua font yang tidak mempunyai style tersendiri (font-size)
+       agar lebih kecil pada tampilan mobile */
+    
+    body{
+      font-size: 12px;
+    }
+
+    /* Title Admin Rief Web Page*/
+    .navbar-brand{
+      font-size: 20px;
+    }
+
+    /* mengganti garis / navbar collapse */
+
+    .navbar-toggle {
+      font-size: 20px;
+    }
+
+    .headertitle{
+      font-size: 20px;
+      border-radius: 0px;
+      border-top: 6px solid white;
+      margin-bottom: 30px;
+    }
+
+
+    .ne {
+      text-align:center; 
+      margin-top: 20px; 
+      width: 90%; 
+      position:relative; 
+      z-index: 1;
+      background-color: #ffffff;
+      padding: 0;
+      border-radius: 3px 3px 0px 0px;
+    }
+
+    .input-group {
+      border: none;
+    }
+
+
+    /* mengatur col-md-3 pada 600px dengan alternative class warna u ganti height elemen*/
+    .warna {
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tpad30 {
+      padding: 0px;
+      border: none;
+    }
+    .textcentered {
+      background-color: white;
+      color: black;
+      height: : 30px;
+      line-height: 30px;  
+    }
+
+    .ne {
+      width: 80%;
+    } 
+
+    .iconicLogo{
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    
+
+}
